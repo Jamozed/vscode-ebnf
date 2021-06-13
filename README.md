@@ -7,7 +7,7 @@
 EBNF for Visual Studio Code provides EBNF syntax highlihting for Visual Studio
 Code. Files with the extension `.ebnf` will automatically be affected.
 
-![Syntax Highlighting](screenshot.png)
+![Syntax Highlighting](./screenshot.png)
 
 ## Meta
 

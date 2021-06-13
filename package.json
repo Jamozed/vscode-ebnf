@@ -1,0 +1,29 @@
+{
+	"name": "vscode-ebnf",
+	"version": "1.0.0",
+	"publisher": "OMKOV",
+	"engines": { "vscode": "^1.0.0" },
+	"license": "OLPE",
+	"displayName": "EBNF",
+	"description": "EBNF Highlighting",
+	"categories": [ "Programming Languages" ],
+	"keywords": [ "ebnf" ],
+	"contributes": {
+		"languages": [
+			{
+				"id": "ebnf",
+				"extensions": [ ".ebnf" ],
+				"aliases": [ "EBNF" ],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "ebnf",
+				"scopeName": "text.ebnf",
+				"path": "./syntaxes/ebnf.tmLanguage.json"
+			}
+		]
+	},
+	"repository": "https://github.com/Jamozed/vscode-ebnf"
+}

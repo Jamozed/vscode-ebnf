@@ -1,0 +1,80 @@
+{
+	"name": "EBNF",
+	"scopeName": "text.ebnf",
+	"patterns": [
+		{ "include": "#comment" },
+		{ "include": "#rule" }
+	],
+	"repository": {
+		"comment": {
+			"name": "comment.block.ebnf",
+			"begin": "\\(\\*",
+			"end": "\\*\\)",
+			"patterns": [
+				{
+					"name": "keyword.other.ebnf",
+					"match": "\\b(?:TODO|FIXME)\\b"
+				}
+			]
+		},
+		"rule": {
+			"begin": "([\\w]+)\\s*(=)\\s*",
+			"end": "(;)",
+			"beginCaptures": {
+				"1": { "name": "entity.name.class.ebnf" },
+				"2": { "name": "keyword.other.ebnf" }
+			},
+			"endCaptures": {
+				"1": { "name": "keyword.other.ebnf" }
+			},
+			"patterns": [
+				{ "include": "#comment" },
+				{ "include": "#symbol" },
+				{ "include": "#operator" },
+				{ "include": "#string" }
+			]
+		},
+		"symbol": {
+			"patterns": [
+				{
+					"name": "support.variable.ebnf",
+					"match": "\\b[A-Z][A-Z0-9_]*\\b"
+				},
+				{
+					"name": "entity.name.class.ebnf",
+					"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+				}
+			]
+		},
+		"operator": {
+			"name": "keyword.control.ebnf",
+			"match": "[,|\\[\\]{}()*?-]"
+		},
+		"string": {
+			"patterns": [
+				{
+					"name": "string.quoted.single.ebnf",
+					"begin": "'",
+					"end": "'",
+					"patterns": [
+						{
+							"name": "constant.character.escape.ebnf",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"name": "string.quoted.double.ebnf",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.ebnf",
+							"match": "\\\\."
+						}
+					]
+				}
+			]
+		}
+	}
+}
