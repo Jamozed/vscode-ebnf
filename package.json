@@ -1,13 +1,13 @@
 {
 	"name": "vscode-ebnf",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "OMKOV",
 	"engines": { "vscode": "^1.0.0" },
 	"license": "OLPE",
 	"displayName": "EBNF",
 	"description": "EBNF Highlighting",
 	"categories": [ "Programming Languages" ],
-	"keywords": [ "ebnf" ],
+	"keywords": [ "bnf", "ebnf" ],
 	"contributes": {
 		"languages": [
 			{
@@ -25,6 +25,7 @@
 			}
 		]
 	},
+	"icon": "./icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Jamozed/vscode-ebnf"

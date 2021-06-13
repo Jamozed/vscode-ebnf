@@ -1,6 +1,7 @@
 # EBNF for Visual Studio Code
 
-> EBNF syntax highlighting for Visual Studio Code.
+[![Version](https://vsmarketplacebadge.apphb.com/version/OMKOV.vscode-ebnf.svg)](https://marketplace.visualstudio.com/items?itemName=OMKOV.vscode-ebnf)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/OMKOV.vscode-ebnf.svg)](https://marketplace.visualstudio.com/items?itemName=OMKOV.vscode-ebnf)
 
 ## About
 
