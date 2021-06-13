@@ -5,7 +5,7 @@
 	"engines": { "vscode": "^1.0.0" },
 	"license": "OLPE",
 	"displayName": "EBNF",
-	"description": "EBNF Highlighting",
+	"description": "EBNF for Visual Studio Code",
 	"categories": [ "Programming Languages" ],
 	"keywords": [ "bnf", "ebnf" ],
 	"contributes": {
