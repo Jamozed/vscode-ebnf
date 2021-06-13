@@ -25,5 +25,8 @@
 			}
 		]
 	},
-	"repository": "https://github.com/Jamozed/vscode-ebnf"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Jamozed/vscode-ebnf"
+	}
 }
