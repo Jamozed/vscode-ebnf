@@ -10,6 +10,14 @@ Code. Files with the extension `.ebnf` will automatically be affected.
 
 ![Syntax Highlighting](./screenshot.png)
 
+## Build Instructions
+
+EBNF for Visual Studio Code can be packaged using `vsce`.
+
+```sh
+vsce package
+```
+
 ## Meta
 
 Copyright (C) 2020, Jakob Wakeling  
