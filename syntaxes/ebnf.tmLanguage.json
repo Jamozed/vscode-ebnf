@@ -13,12 +13,12 @@
 			"patterns": [
 				{
 					"name": "keyword.other.ebnf",
-					"match": "\\b(?:TODO|FIXME)\\b"
+					"match": "\\b(TODO|FIXME)\\b"
 				}
 			]
 		},
 		"rule": {
-			"begin": "([\\w]+)\\s*(=)\\s*",
+			"begin": "([a-zA-Z_][a-zA-Z0-9_]*)\\s*(=)",
 			"end": "(;)",
 			"beginCaptures": {
 				"1": { "name": "entity.name.class.ebnf" },
