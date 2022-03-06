@@ -3,7 +3,7 @@
 	"version": "1.0.4",
 	"publisher": "OMKOV",
 	"engines": { "vscode": "^1.0.0" },
-	"license": "OLPE",
+	"license": "MIT",
 	"displayName": "EBNF",
 	"description": "EBNF for Visual Studio Code",
 	"categories": [ "Programming Languages" ],
