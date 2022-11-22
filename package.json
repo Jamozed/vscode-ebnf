@@ -1,6 +1,6 @@
 {
 	"name": "vscode-ebnf",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"publisher": "OMKOV",
 	"engines": { "vscode": "^1.0.0" },
 	"license": "MIT",
