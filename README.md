@@ -1,7 +1,7 @@
 # EBNF for Visual Studio Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/OMKOV.vscode-ebnf.svg)](https://marketplace.visualstudio.com/items?itemName=OMKOV.vscode-ebnf)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/OMKOV.vscode-ebnf.svg)](https://marketplace.visualstudio.com/items?itemName=OMKOV.vscode-ebnf)
+[![Version](https://vsmarketplacebadges.dev/version/omkov.vscode-ebnf.svg)](https://marketplace.visualstudio.com/items?itemName=OMKOV.vscode-ebnf)
+[![Installs](https://vsmarketplacebadges.dev/installs/omkov.vscode-ebnf.svg)](https://marketplace.visualstudio.com/items?itemName=OMKOV.vscode-ebnf)
 
 ## About
 
