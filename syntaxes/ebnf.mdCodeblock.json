@@ -1,4 +1,5 @@
 {
+	"scopeName": "markdown.ebnf.codeblock",
 	"fileTypes": [],
 	"injectionSelector": "L:markup.fenced_code.block.markdown",
 	"patterns": [
@@ -23,6 +24,5 @@
 				}
 			]
 		}
-	},
-	"scopeName": "markdown.ebnf.codeblock"
+	}
 }

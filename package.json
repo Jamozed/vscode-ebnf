@@ -24,13 +24,13 @@
 				"path": "./syntaxes/ebnf.tmLanguage.json"
 			},
 			{
-      	"scopeName": "markdown.ebnf.codeblock",
-      	"path": "./syntaxes/ebnf.mdCodeblock.json",
-      	"injectTo": ["text.html.markdown"],
-      	"embeddedLanguages": {
-        	"meta.embedded.block.ebnf": "ebnf"
-      	}
-    	}
+				"scopeName": "markdown.ebnf.codeblock",
+				"path": "./syntaxes/ebnf.mdCodeblock.json",
+				"injectTo": [ "text.html.markdown" ],
+				"embeddedLanguages": {
+					"meta.embedded.block.ebnf": "ebnf"
+				}
+			}
 		]
 	},
 	"icon": "icon.png",
