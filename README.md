@@ -5,7 +5,7 @@
 
 ## About
 
-EBNF for Visual Studio Code provides EBNF syntax highlihting for Visual Studio
+EBNF for Visual Studio Code provides EBNF syntax highlighting for Visual Studio
 Code. Files with the extension `.ebnf` will automatically be affected.
 
 EBNF code blocks in Markdown are also supported.
